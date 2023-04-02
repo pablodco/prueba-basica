@@ -1,22 +1,23 @@
 /*
  * administrador.h
  *
- *  Created on: 23 mar 2023
+ *  Created on: 2 abr 2023
  *      Author: pablo
  */
 
 #ifndef ADMINISTRADOR_H_
 #define ADMINISTRADOR_H_
+
 typedef struct{
 	char* nombre;
-	char* contraseña;
+	char* apellido;
+	char* cotrasena;
 	int id;
-	int longitudDeNombre;
-	int longitudDeContraseña;
+	char* email;
+	int longitudnombre;
+	int longitudEmail;
+	int longitudContrasena;
+	int longitudApellido;
 }Administrador;
-
-imprimirAdmin();
-
-
 
 #endif /* ADMINISTRADOR_H_ */
